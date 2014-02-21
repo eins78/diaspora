@@ -10,7 +10,8 @@
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 100% auto;
-
+  line-height: 1;
+  
   //color : #fff;
   text-align : center;
 
@@ -26,9 +27,15 @@
     text-shadow : 0 1px 0 #fff;
     
     /* mars */
+    font-family: Roboto;
     color: #fff;
     text-shadow: none;
     font-weight: 400;
+    
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
     
   }
 
