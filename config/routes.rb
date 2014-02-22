@@ -234,5 +234,5 @@ Diaspora::Application.routes.draw do
 
   # Startpage
   #root :to => 'home#show'
-  root => redirect('/users/sign_in')
+  root :to => redirect('/users/sign_in')
 end
