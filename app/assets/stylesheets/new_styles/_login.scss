@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 134% auto;
-  line-height: 1;
+  padding-top: 6em;
   
   //color : #fff;
   text-align : center;
@@ -27,10 +27,10 @@
     text-shadow : 0 1px 0 #fff;
     
     /* mars */
-    font-family: Roboto;
+    font-family: Roboto-Bold;
+    line-height: 1;
     color: #fff;
     text-shadow: 0 1px 2px #999;
-    font-weight: 400;
     
     a {
       color: #fff;
