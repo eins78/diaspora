@@ -233,5 +233,6 @@ Diaspora::Application.routes.draw do
   get :statistics, controller: :statistics
 
   # Startpage
-  root :to => 'home#show'
+  #root :to => 'home#show'
+  root => redirect('/users/sign_in')
 end
